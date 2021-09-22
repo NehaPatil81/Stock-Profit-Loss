@@ -1,0 +1,48 @@
+:root{
+  --primary-color:#E50914;
+}
+body{
+  background: url("stock.jpg");
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  
+  max-width: 40%;
+  color: white;
+}
+
+label{
+  font-weight: bold;
+ 
+}
+input{
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+}
+#btn{
+font-family: 'Montserrat', sans-serif;
+color: white;
+padding:  1rem 2rem;
+margin: 1rem 0rem;
+border-style: none;
+border-radius: 0.5rem;
+background-color: black;
+
+align-self: center;
+}
+#btn:hover{
+  border: 2px solid black;
+  background-color: transparent;
+}
+#result{
+  padding: 1rem;
+  background-color: black;
+  border-radius: 0.5rem;
+}
